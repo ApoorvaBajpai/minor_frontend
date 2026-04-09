@@ -269,12 +269,12 @@
     }
 }
 
-/* Spec grid */
+/* Spec grid — now single column for Status only */
 .q-notes {
     width: 100%;
     max-width: 320px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 

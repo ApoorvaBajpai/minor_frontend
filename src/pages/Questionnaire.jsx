@@ -121,18 +121,6 @@ export default function Questionnaire() {
 
                     <div className="q-notes">
                         <div className="q-note">
-                            <span className="q-note-label">Data Privacy</span>
-                            <span className="q-note-val">Local Only</span>
-                        </div>
-                        <div className="q-note">
-                            <span className="q-note-label">AI Engine</span>
-                            <span className="q-note-val">FaceNet v2</span>
-                        </div>
-                        <div className="q-note">
-                            <span className="q-note-label">Video Upload</span>
-                            <span className="q-note-val">Never</span>
-                        </div>
-                        <div className="q-note">
                             <span className="q-note-label">Status</span>
                             <span className="q-note-val" style={{ color: '#e53935' }}>● Active</span>
                         </div>

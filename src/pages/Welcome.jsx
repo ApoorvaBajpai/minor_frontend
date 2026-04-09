@@ -2,9 +2,11 @@ import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import './Welcome.css'
 
+import { createPortal } from 'react-dom'
+
 // Terms & Privacy modal component
 function TermsModal({ onClose }) {
-    return (
+    return createPortal(
         <div className="terms-overlay" onClick={onClose}>
             <div className="terms-modal" onClick={e => e.stopPropagation()}>
                 <div className="terms-header">
@@ -43,7 +45,8 @@ function TermsModal({ onClose }) {
                     </button>
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     )
 }
 
